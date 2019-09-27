@@ -1,0 +1,21 @@
+.logo {
+    background-image: url('./assets/backgrounds/h_img.jpg');
+    background-repeat: no-repeat;
+    height: 100vh;
+    text-align: center;
+}
+
+.display {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo>img {
+    display: inline;
+    padding: 17%;
+}
+
+h1{
+    color:white;
+}
