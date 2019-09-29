@@ -101,4 +101,6 @@ footer p{
 /* text-align:center; */
 margin-left: 1%;
 }
-
+#design{
+    display:none;
+}
