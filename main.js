@@ -24,5 +24,7 @@ $(document).ready(function() {
 //create a hover effect on the portfolio section showing the name of the projects//
 
 $(document).ready(function() {
-  $("#work1").hover(function() {});
+  $("#work1").hover(function() {
+      
+  });
 });
