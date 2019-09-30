@@ -23,10 +23,21 @@ $(document).ready(function() {
 
 //create a hover effect on the portfolio section showing the name of the projects//
 
+// $(document).ready(function() {
+//   $('.port').port(function() {
+//     $('.work1', this).slideToggle('slow');
+//   }, function(){
+//   $('.work1', this).slideToggle('slow');
+// });
+// });
+
 $(document).ready(function() {
-  $('.port').port(function() {
-    $('.work1', this).slideToggle('slow');
-  }, function(){
-  $('.work1', this).slideToggle('slow');
-});
+    $('.work1').hover(function(){
+        $('.work2', this).show();
+        
+	}, function(){
+        $('.work2').mouseleave(); 
+        $('.work2').hide();
+       
+    });
 });

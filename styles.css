@@ -22,17 +22,21 @@ h2 {
 .logo > h6 {
   color: white;
 }
-
-.work1 .port {
-  display: none;
-  opacity: 0.6;
-  background: white;
-  position: absolute;
-  bottom: 0px;
-  padding: 20px;
+.work1 {
+	
+	position: relative;
+	margin: 5px;
+	color: #333;
 }
-.port {
-  position: relative;
+.work1 .work2 {
+	display: none;
+	opacity: 0.8;
+    background:#cae5c1;
+    /* height:370px; */
+	width: 370px;
+	position: absolute;
+	bottom: 0px;
+	padding: 130px;
 }
 
 .about {
@@ -63,6 +67,12 @@ h2 {
 .portfolio {
   margin: 2%;
   justify-content: space space-around;
+}
+.portfolio>.one{
+    display:flex;
+}
+.portfolio>.two{
+    display:flex;
 }
 .portfolio > h1 {
   text-align: center;
