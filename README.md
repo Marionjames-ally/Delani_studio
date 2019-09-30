@@ -6,6 +6,12 @@
 
 * Marion James
 
+## CONDITIONS AND USE 
+
+* Delani_studio is a public website .
+
+* There are no cost for loging in or even signing up
+
 ## LICENSE
 
 
