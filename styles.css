@@ -23,6 +23,19 @@ h2 {
   color: white;
 }
 
+.work1 .port{
+
+    display:none;
+    opacity:0.6;
+    background:white;
+    position:absolute;
+    bottom: 0px;
+    padding: 20px;
+}
+.port{
+    position: relative;
+}
+
 .about {
   background-color: white;
   text-align: center;
@@ -110,3 +123,4 @@ margin-left: 1%;
 }#management{
     display: none;
 }
+
